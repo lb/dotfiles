@@ -36,6 +36,7 @@ install ack
 install bfg
 install foremost
 install git
+install git-flow
 install hashpump
 install imagemagick --with-webp
 install lynx
