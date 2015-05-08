@@ -40,7 +40,7 @@ alias connections="lsof -P -i -n | cut -f 1 -d \" \"| sort | uniq -c | sort -n"
 alias du="du -kh"
 alias df="df -kTh"
 
-function extract()      
+function extract()
 {
   if [ -f $1 ] ; then
     case $1 in
@@ -90,6 +90,5 @@ function dataurl() {
   echo "data:${mimeType};base64,$(openssl base64 -in "$1" | tr -d '\n')"
 }
 
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/shims:$PATH"
