@@ -13,3 +13,4 @@ cask install hipchat 2> /dev/null
 cask install gpgtools 2> /dev/null
 cask install spectacle 2> /dev/null
 cask install time-out 2> /dev/null
+cask install evernote 2> /dev/
