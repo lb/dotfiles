@@ -29,6 +29,8 @@ isitup() {
 
 alias gmail="$BROWSER https://www.gmail.com"
 
+alias inbox="$BROWSER https://inbox.google.com/"
+
 alias flush="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 alias desktophide="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
