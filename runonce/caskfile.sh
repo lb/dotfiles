@@ -14,3 +14,6 @@ cask install gpgtools 2> /dev/null
 cask install spectacle 2> /dev/null
 cask install time-out 2> /dev/null
 cask install evernote 2> /dev/
+cask install atom 2> /dev/
+cask install 1password 2> /dev/
+cask install virtualbox 2> /dev/
